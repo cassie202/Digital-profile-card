@@ -33,10 +33,6 @@ function Main(){
                 <img src= {GitHubIcon} alt = "GitHub-logo" className="GitHub-logo"/>
             </footer>
                  </div>
-           
-           
-            
-
         </div>
     )
 }

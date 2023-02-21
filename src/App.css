@@ -134,6 +134,7 @@ padding-left: 10px;
 }
 .GitHub-logo{
   width: 20px;
+  cursor: pointer;
 }
 /*note this styling */
 .email-btn{
