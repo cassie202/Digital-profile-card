@@ -8,6 +8,7 @@
   text-align: center;
   color: #FFFFFF;
   padding: 50px;
+  border-radius: 5px;
 
 }
 .main{
@@ -27,7 +28,7 @@
 }
 
 .name{
-  font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -37,7 +38,7 @@ margin-bottom: 2px;
 
 }
 .role{
-  font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12.8px;
@@ -111,22 +112,38 @@ padding-left: 10px;
   justify-content: space-around;
    
 }
-.Email-btn{
-  padding: 5px 30px;
+.footer{
+  background: #161619;
+  padding: 10px 5px;
+
+}
+.twitter-logo{
+  width: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.facebook-logo{
+  width: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.instagram-logo{
+  width: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.GitHub-logo{
+  width: 20px;
+}
+/*note this styling */
+.email-btn{
+  padding: 10px 30px;
   text-align: center;
   cursor: pointer;
   color : #374151;
- 
+  border: none;
+  border-radius: 5px;
+  color:#374151;
+  font-size: 14px;
+  font-weight: 500;
 };
-.linkedIn-btn{
-  
-  text-align: center;
-  background: #5093E2;
-  cursor: pointer;
-};
-.footer{
-  display: flex;
-  flex-direction: column;
-  /* background: #161619; */
-  background: red;
-}

@@ -16,8 +16,8 @@ function Main(){
                 <p className="role">Frontend developer</p>
                 <p className="contact">cassie.gmail.com</p>
                 <div className="button">
-                <button className="Email-btn">Email</button>
-                <button className="linkedIn-btn">LinkedIn</button>
+                <button className ="email-btn">Email</button>
+                <button className ="email-btn" style = {{backgroundColor: "#5093E2", color: "white"}} >LinkedIn</button>
                 </div>
                 <h4 className="about">About</h4>
                 <p className="about-paragraph">A motivated software engineering graduate from Altschool Africa with 6 months
@@ -26,14 +26,15 @@ function Main(){
                  <h4 className="interest">Interests</h4>
                  <p className="interest-paragraph">Coding, resting, exercising.</p>
                  </div> 
+                 <footer className="footer">
+                <img src= {TwitterIcon} alt = "twitter-logo" className="twitter-logo"/>
+                <img src= {FacebookIcon} alt = "facebook-logo" className="facebook-logo"/>
+                <img src= {InstagramIcon} alt = "instagram-logo" className="instagram-logo"/>
+                <img src= {GitHubIcon} alt = "GitHub-logo" className="GitHub-logo"/>
+            </footer>
                  </div>
            
-            <footer className="footer">
-                <img src= {TwitterIcon} alt = "twitter-logo"/>
-                <img src= {FacebookIcon} alt = "facebook-logo"/>
-                <img src= {InstagramIcon} alt = "instagram-logo"/>
-                <img src= {GitHubIcon} alt = "GitHub-logo"/>
-            </footer>
+           
             
 
         </div>
