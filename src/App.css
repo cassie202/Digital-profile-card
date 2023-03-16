@@ -137,7 +137,10 @@ padding-left: 10px;
   cursor: pointer;
 }
 /*note this styling */
-.email-btn{
+.linkedin-btn{
+  background-color: red;
+}
+.btn{
   padding: 10px 30px;
   text-align: center;
   cursor: pointer;
@@ -147,4 +150,6 @@ padding-left: 10px;
   color:#374151;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
 };
+
