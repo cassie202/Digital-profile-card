@@ -1,6 +1,4 @@
 import React from "react";
-// import { BrowserRouter, Route } from 'react-router-dom';
-// import { Link } from 'react-router-dom'
 import Avatar from "./Avatar.png"
 import FacebookIcon from "./Assets/Facebook Icon.png"
 import GitHubIcon from "./Assets/GitHub Icon.png"
@@ -38,8 +36,5 @@ function Main(){
         </div>
     )
 }
-
-
-
 
 export default Main;
